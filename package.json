@@ -1,0 +1,30 @@
+{
+  "name": "mongo-randomid",
+  "version": "1.0.0",
+  "description": "Create a non-guessable ObjectId for mongo",
+  "main": "mongo-randomid.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha tests/*.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsonxr/node-mongo-randomid.git"
+  },
+  "keywords": [
+    "mongo",
+    "random",
+    "ObjectId"
+  ],
+  "author": "Jason Rowland <jason@snowcapstudios.com> (http://www.jasonrowland.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsonxr/node-mongo-randomid/issues"
+  },
+  "homepage": "https://github.com/jsonxr/node-mongo-randomid",
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  },
+  "dependencies": {
+    "bson": "^0.3.1"
+  }
+}
